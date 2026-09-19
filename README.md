@@ -1,6 +1,6 @@
 # Viora-plugins 官方插件仓库
 
-本仓库是 **Viora 插件市场的官方数据源**。Viora 客户端的插件市场会从这里拉取插件目录(`registry.json`)与插件包(`presets/*.json`),实现**插件与客户端分离**:客户端只内置 10 个默认预设,其余插件由用户在市场里按需下载。
+本仓库是 **Viora 插件市场的官方数据源**。Viora 客户端的插件市场会从这里拉取插件目录(`registry.json`)与插件包(`packages/*.zip`),实现**插件与客户端完全分离**:客户端本体不内置任何插件,安装区从空开始,全部插件由用户在市场里按需下载,下载来源即本仓库(GitHub)。
 
 当前本仓库托管 **55 个官方系统预设**(风格化插件)。
 
@@ -10,42 +10,43 @@
 
 ```
 Viora-plugins/
-├── registry.json        # 插件总目录(市场启动时拉取,含全部插件元数据)
+├── registry.json        # 插件总目录(市场的唯一数据源,含全部插件元数据)
 ├── packages/            # 每个插件一个完整安装包(zip = plugin.json + 插件 DLL)
 │   ├── builtin.viora.mosaic.zip
 │   ├── builtin.viora.oil-painting.zip
 │   └── ...
-├── presets/             # 插件 manifest(与 packages 一一对应,便于审阅)
-│   ├── builtin.anime-vector.json
-│   └── ...
 └── README.md
 ```
 
-## manifest 格式(`presets/*.json`)
+## 目录条目格式(`registry.json` 的 `presets` 数组)
 
 ```json
 {
-  "id": "builtin.watercolor",
+  "pluginId": "builtin.viora.watercolor",
+  "presetId": "builtin.watercolor",
   "name": { "zh": "水彩画", "en": "Watercolor" },
   "author": "Viora Team",
   "category": "Style.Cat.Watercolor",
   "version": "1.0.0",
+  "package": "packages/builtin.viora.watercolor.zip",
+  "repository": "https://github.com/yourname/your-plugin",
   "tags": ["水彩"],
-  "description": { "zh": "……", "en": "……" },
-  "preview": "sample"
+  "description": { "zh": "……", "en": "……" }
 }
 ```
 
 | 字段 | 说明 |
 |---|---|
-| `id` | 全局唯一,格式 `builtin.<短id>`(官方预设)或 `<作者名>.<插件名>`(社区插件)。**发布后不可更改** |
+| `pluginId` | 宿主插件 id = 安装区文件夹名,格式 `builtin.viora.<短id>`(官方)或 `<作者名>.<插件名>`(社区)。**发布后不可更改** |
+| `presetId` | 预设 id(风格化面板中的唯一键),通常为 `builtin.<短id>` |
 | `name` | 显示名,至少提供中文;建议同时提供英文 |
-| `author` | 作者名,将与 GitHub 账号一致 |
+| `author` | 作者名,将与 GitHub 账号一致;市场卡片上点击作者名跳转 `repository` |
 | `category` | 从 20 个官方大类中选一(见下表) |
 | `version` | 语义化版本 `主.次.修订` |
-| `tags` | 1–3 个标签,用于搜索 |
-| `description` | 一段话说明插件功能与适用场景 |
-| `preview` | 预览图:`sample` = 使用官方样张;后续支持仓库内相对路径 |
+| `package` | 安装包路径 `packages/<pluginId>.zip` |
+| `repository` | 可选。插件仓库地址(作者自行配置);官方条目缺省指向本仓库 `packages/` 内对应的包 |
+| `tags` | 可选。1–2 个作者自配标签,与分类一起展示并参与搜索 |
+| `description` | 一段话说明插件功能与适用场景(中/英) |
 
 ## 20 个官方大类
 
@@ -66,7 +67,7 @@ Viora-plugins/
 
 ## 提交流程
 
-1. Fork 本仓库 → 在 `presets/` 添加 `<你的id>.json` → 在 `registry.json` 的 `presets` 数组中追加同一对象。
+1. Fork 本仓库 → 把插件包 `packages/<pluginId>.zip` 放入 `packages/` → 在 `registry.json` 的 `presets` 数组中追加对应条目。
 2. 提交 PR,标题格式:`[插件] <id> <名称>`。
 3. 通过校验(格式 + 查重 + 人工审核)后合并,客户端市场即可搜索并下载。
 
