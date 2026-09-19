@@ -1,0 +1,18 @@
+{
+  "id": "builtin.etching",
+  "name": {
+    "zh": "蚀刻版画",
+    "en": "Etching"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Printmaking",
+  "version": "1.0.0",
+  "tags": [
+    "版画"
+  ],
+  "description": {
+    "zh": "极细密的雕刻线、金属版画质感",
+    "en": "Ultra-fine engraved lines, plate-print feel."
+  },
+  "preview": "sample"
+}

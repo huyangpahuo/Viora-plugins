@@ -1,0 +1,18 @@
+{
+  "id": "builtin.xray",
+  "name": {
+    "zh": "X光",
+    "en": "X-Ray"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Photography",
+  "version": "1.0.0",
+  "tags": [
+    "摄影暗房"
+  ],
+  "description": {
+    "zh": "半透明结构、冷色医学成像",
+    "en": "Translucent structures in cold medical imaging."
+  },
+  "preview": "sample"
+}

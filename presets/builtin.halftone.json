@@ -1,0 +1,18 @@
+{
+  "id": "builtin.halftone",
+  "name": {
+    "zh": "半色调",
+    "en": "Halftone"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.RetroFilm",
+  "version": "1.0.0",
+  "tags": [
+    "复古胶片"
+  ],
+  "description": {
+    "zh": "印刷网点、点阵明暗、复古印刷感",
+    "en": "Classic print dots shaping light and shade."
+  },
+  "preview": "sample"
+}

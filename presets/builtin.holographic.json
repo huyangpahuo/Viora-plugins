@@ -1,0 +1,18 @@
+{
+  "id": "builtin.holographic",
+  "name": {
+    "zh": "全息",
+    "en": "Holographic"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Neon",
+  "version": "1.0.0",
+  "tags": [
+    "霓虹灯光"
+  ],
+  "description": {
+    "zh": "彩虹折射、金属光泽、虹彩渐变",
+    "en": "Iridescent rainbow refraction with metallic sheen."
+  },
+  "preview": "sample"
+}

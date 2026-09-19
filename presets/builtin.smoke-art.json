@@ -1,0 +1,18 @@
+{
+  "id": "builtin.smoke-art",
+  "name": {
+    "zh": "烟雾",
+    "en": "Smoke Art"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.LightParticles",
+  "version": "1.0.0",
+  "tags": [
+    "光影粒子"
+  ],
+  "description": {
+    "zh": "烟雾形成轮廓、柔软扩散、朦胧结构",
+    "en": "Soft drifting smoke silhouettes."
+  },
+  "preview": "sample"
+}

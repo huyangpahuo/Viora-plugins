@@ -1,0 +1,18 @@
+{
+  "id": "builtin.collage",
+  "name": {
+    "zh": "拼贴艺术",
+    "en": "Collage"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Collage",
+  "version": "1.0.0",
+  "tags": [
+    "拼贴混合"
+  ],
+  "description": {
+    "zh": "素材撕裂、重叠、剪贴组合",
+    "en": "Torn, overlapping paper collage."
+  },
+  "preview": "sample"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "builtin.embroidery",
+  "name": {
+    "zh": "刺绣",
+    "en": "Embroidery"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Handcraft",
+  "version": "1.0.0",
+  "tags": [
+    "手工艺"
+  ],
+  "description": {
+    "zh": "线迹、布料纤维、针脚图像",
+    "en": "Thread stitches forming the image on fabric."
+  },
+  "preview": "sample"
+}

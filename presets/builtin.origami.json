@@ -1,0 +1,18 @@
+{
+  "id": "builtin.origami",
+  "name": {
+    "zh": "折纸",
+    "en": "Origami"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.PaperCraft",
+  "version": "1.0.0",
+  "tags": [
+    "纸艺纸雕"
+  ],
+  "description": {
+    "zh": "折痕、纸张结构、几何立体",
+    "en": "Creased paper facets, geometric folds."
+  },
+  "preview": "sample"
+}

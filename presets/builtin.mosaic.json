@@ -1,0 +1,18 @@
+{
+  "id": "builtin.mosaic",
+  "name": {
+    "zh": "马赛克",
+    "en": "Mosaic"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.GlassMosaic",
+  "version": "1.0.0",
+  "tags": [
+    "玻璃马赛克"
+  ],
+  "description": {
+    "zh": "瓷砖马赛克:分块平色、深色砖缝与轻微釉面抖动。",
+    "en": "Ceramic tile mosaic: flat tile colors, dark grout seams and a subtle glaze jitter."
+  },
+  "preview": "sample"
+}

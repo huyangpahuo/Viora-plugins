@@ -1,0 +1,18 @@
+{
+  "id": "builtin.neon-cyberpunk",
+  "name": {
+    "zh": "霓虹赛博",
+    "en": "Neon Cyberpunk"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Cyberpunk",
+  "version": "1.0.0",
+  "tags": [
+    "赛博朋克"
+  ],
+  "description": {
+    "zh": "霓虹光源、夜景、未来科技感",
+    "en": "Neon glow light sources, futuristic night mood."
+  },
+  "preview": "sample"
+}

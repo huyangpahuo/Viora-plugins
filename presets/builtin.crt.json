@@ -1,0 +1,18 @@
+{
+  "id": "builtin.crt",
+  "name": {
+    "zh": "CRT复古",
+    "en": "CRT Retro"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.RetroFilm",
+  "version": "1.0.0",
+  "tags": [
+    "复古胶片"
+  ],
+  "description": {
+    "zh": "扫描线、屏幕弯曲、荧光像素",
+    "en": "Scanlines, tube curvature, phosphor glow."
+  },
+  "preview": "sample"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "builtin.film-negative",
+  "name": {
+    "zh": "胶片负片",
+    "en": "Film Negative"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.RetroFilm",
+  "version": "1.0.0",
+  "tags": [
+    "复古胶片"
+  ],
+  "description": {
+    "zh": "负片色彩、胶片颗粒、暗房感",
+    "en": "Inverted negative with film grain, darkroom mood."
+  },
+  "preview": "sample"
+}

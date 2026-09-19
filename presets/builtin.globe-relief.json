@@ -1,0 +1,18 @@
+{
+  "id": "builtin.globe-relief",
+  "name": {
+    "zh": "浮雕",
+    "en": "Relief"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.ThreeD",
+  "version": "1.0.0",
+  "tags": [
+    "3D 立体"
+  ],
+  "description": {
+    "zh": "图像变成立体浮雕、凹凸起伏的表面",
+    "en": "Embossed raised-surface render."
+  },
+  "preview": "sample"
+}

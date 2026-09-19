@@ -1,0 +1,18 @@
+{
+  "id": "builtin.porcelain",
+  "name": {
+    "zh": "瓷器",
+    "en": "Porcelain"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Handcraft",
+  "version": "1.0.0",
+  "tags": [
+    "手工艺"
+  ],
+  "description": {
+    "zh": "光滑陶瓷、釉面反光、精致感",
+    "en": "Glazed ceramic with delicate specular sheen."
+  },
+  "preview": "sample"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "builtin.comic",
+  "name": {
+    "zh": "漫画",
+    "en": "Comic Book"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Anime",
+  "version": "1.0.0",
+  "tags": [
+    "动漫"
+  ],
+  "description": {
+    "zh": "粗黑描边、漫画阴影、动态分镜感",
+    "en": "Bold ink outlines, comic shading, dynamic panel energy."
+  },
+  "preview": "sample"
+}

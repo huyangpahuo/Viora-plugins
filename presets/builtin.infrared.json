@@ -1,0 +1,18 @@
+{
+  "id": "builtin.infrared",
+  "name": {
+    "zh": "红外摄影",
+    "en": "Infrared"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Photography",
+  "version": "1.0.0",
+  "tags": [
+    "摄影暗房"
+  ],
+  "description": {
+    "zh": "红外植物、异常色彩、梦幻摄影",
+    "en": "Dreamlike infrared false-color photography."
+  },
+  "preview": "sample"
+}

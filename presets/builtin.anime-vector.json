@@ -1,0 +1,18 @@
+{
+  "id": "builtin.anime-vector",
+  "name": {
+    "zh": "Anime Vector",
+    "en": "Anime Vector"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Anime",
+  "version": "1.0.0",
+  "tags": [
+    "动漫"
+  ],
+  "description": {
+    "zh": "扁平几何二次元 / 矢量插画风格:少量硬边色块、简化形状、块状阴影。",
+    "en": "Flat geometric anime / vector illustration look: small hard-edged palette, simplified shapes, blocking shadows."
+  },
+  "preview": "sample"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "builtin.wax-crayon",
+  "name": {
+    "zh": "蜡笔",
+    "en": "Wax Crayon"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Handcraft",
+  "version": "1.0.0",
+  "tags": [
+    "手工艺"
+  ],
+  "description": {
+    "zh": "蜡质笔触、粗糙涂抹、童趣",
+    "en": "Waxy crayon strokes on rough paper."
+  },
+  "preview": "sample"
+}

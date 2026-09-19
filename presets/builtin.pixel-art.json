@@ -1,0 +1,18 @@
+{
+  "id": "builtin.pixel-art",
+  "name": {
+    "zh": "像素艺术",
+    "en": "Pixel Art"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Pixel",
+  "version": "1.0.0",
+  "tags": [
+    "像素艺术"
+  ],
+  "description": {
+    "zh": "像素块、有限色板、低分辨率重构",
+    "en": "Chunky pixels, limited palette, low-res rebuild."
+  },
+  "preview": "sample"
+}

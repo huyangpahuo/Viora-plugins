@@ -1,0 +1,18 @@
+{
+  "id": "builtin.sand-art",
+  "name": {
+    "zh": "沙画",
+    "en": "Sand Art"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.LightParticles",
+  "version": "1.0.0",
+  "tags": [
+    "光影粒子"
+  ],
+  "description": {
+    "zh": "沙粒堆积、颗粒渐变、流动纹理",
+    "en": "Backlit sand grains forming the image."
+  },
+  "preview": "sample"
+}

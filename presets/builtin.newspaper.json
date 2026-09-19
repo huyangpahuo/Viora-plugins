@@ -1,0 +1,18 @@
+{
+  "id": "builtin.newspaper",
+  "name": {
+    "zh": "报纸印刷",
+    "en": "Newspaper"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Printmaking",
+  "version": "1.0.0",
+  "tags": [
+    "版画"
+  ],
+  "description": {
+    "zh": "新闻纸、黑白油墨、旧报纸质感",
+    "en": "Black-and-white ink on aged newsprint."
+  },
+  "preview": "sample"
+}

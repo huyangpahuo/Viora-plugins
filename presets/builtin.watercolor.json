@@ -1,0 +1,18 @@
+{
+  "id": "builtin.watercolor",
+  "name": {
+    "zh": "水彩画",
+    "en": "Watercolor"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Watercolor",
+  "version": "1.0.0",
+  "tags": [
+    "水彩"
+  ],
+  "description": {
+    "zh": "湿画水彩:柔和颜料罩层、边缘沉淀与纸张纹理。",
+    "en": "Wet watercolor washes: soft pigment glazes, pooled dark edges and paper grain."
+  },
+  "preview": "sample"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "builtin.paper-cut",
+  "name": {
+    "zh": "剪纸",
+    "en": "Paper Cut"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.PaperCraft",
+  "version": "1.0.0",
+  "tags": [
+    "纸艺纸雕"
+  ],
+  "description": {
+    "zh": "多层纸片、阴影叠层、平面剪裁",
+    "en": "Layered paper sheets with stacked shadows."
+  },
+  "preview": "sample"
+}

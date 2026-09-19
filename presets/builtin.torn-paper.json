@@ -1,0 +1,18 @@
+{
+  "id": "builtin.torn-paper",
+  "name": {
+    "zh": "撕纸",
+    "en": "Torn Paper"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.PaperCraft",
+  "version": "1.0.0",
+  "tags": [
+    "纸艺纸雕"
+  ],
+  "description": {
+    "zh": "不规则纸张边缘、层叠遮挡、拼接",
+    "en": "Stacked strips with torn paper edges."
+  },
+  "preview": "sample"
+}

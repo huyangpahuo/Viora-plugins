@@ -1,0 +1,18 @@
+{
+  "id": "builtin.chrome",
+  "name": {
+    "zh": "镀铬",
+    "en": "Chrome"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.Metallic",
+  "version": "1.0.0",
+  "tags": [
+    "金属质感"
+  ],
+  "description": {
+    "zh": "高反射银色表面、未来工业感",
+    "en": "Mirror-finish chrome reflection bands."
+  },
+  "preview": "sample"
+}

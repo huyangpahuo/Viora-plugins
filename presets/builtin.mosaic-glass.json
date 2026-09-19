@@ -1,0 +1,18 @@
+{
+  "id": "builtin.mosaic-glass",
+  "name": {
+    "zh": "玻璃镶嵌",
+    "en": "Mosaic Glass"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.GlassMosaic",
+  "version": "1.0.0",
+  "tags": [
+    "玻璃马赛克"
+  ],
+  "description": {
+    "zh": "彩色玻璃碎片拼接成完整图像",
+    "en": "Irregular glass shards with sparkling facets."
+  },
+  "preview": "sample"
+}

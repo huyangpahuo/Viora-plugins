@@ -1,0 +1,18 @@
+{
+  "id": "builtin.polaroid",
+  "name": {
+    "zh": "拍立得",
+    "en": "Polaroid"
+  },
+  "author": "Viora Team",
+  "category": "Style.Cat.RetroFilm",
+  "version": "1.0.0",
+  "tags": [
+    "复古胶片"
+  ],
+  "description": {
+    "zh": "即时成像、褪色、相纸边框",
+    "en": "Faded instant photo with a paper frame."
+  },
+  "preview": "sample"
+}
